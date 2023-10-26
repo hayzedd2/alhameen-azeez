@@ -12,6 +12,21 @@
 #about{
   scroll-behavior: smooth;
 }
+.scroll-container {
+  overflow: auto;
+  scrollbar-width: thin; 
+  scrollbar-color: transparent transparent; 
+}
 
-  
-  
+.scroll-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: transparent; 
+}
+@media (min-width: 768px) {
+  .scroll-container{
+    width: calc(100% + 8rem);
+  }
+}

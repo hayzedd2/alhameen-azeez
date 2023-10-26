@@ -4,7 +4,7 @@ import { FaAward } from "react-icons/fa";
 import { IoDiamondOutline } from "react-icons/io5";
 import man from "../images/pngwing.com.png";
 
-const Arsenal = () => {
+const About = () => {
   return (
     <section id="about" className="py-10">
       <div className="arsenal max-w-[78rem] mx-auto flex items-center justify-center md:items-end  py-10 md:flex-nowrap  flex-wrap gap-10 md:gap-0">
@@ -79,4 +79,4 @@ const Arsenal = () => {
   );
 };
 
-export default Arsenal;
+export default About;
