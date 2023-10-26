@@ -32,7 +32,7 @@ const Skills = () => {
    
   ];
   return (
-    <section className="skills py-0 md:py-20 overflow-x-hidden">
+    <section className="skills py-0 pb-10 md:py-20 overflow-x-hidden">
       <div className=" mx-auto   max-w-[78rem]">
         <div className="skills-heading w-full flex flex-col items-center justify-center gap-2">
           <h1 className="font-josefin font-[700] text-[1.5rem] md:text-[2rem]">
