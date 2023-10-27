@@ -8,11 +8,11 @@ const About = () => {
   return (
     <section id="about" className="py-10">
       <div className="arsenal max-w-[78rem] mx-auto flex items-center  justify-center md:items-end  py-10 md:flex-wrap  flex-wrap gap-10 md:gap-10 lg:gap-0">
-        <div className="flex flex-col items-center md:items-center lg:items-start gap-3 basis-[100%] md:basis-[100%] lg:basis-[50%] md:text-left text-center">
+        <div className="flex flex-col items-center px-5 md:items-center lg:items-start gap-3 basis-[100%] md:basis-[100%] lg:basis-[50%] md:text-left text-center">
           <div className=" bg-[#E5E5E5] flex items-center justify-center w-28 h-28 md:w-36 md:h-36 rounded-[50%] mb-8 ">
             <img src={man} alt="" className="rounded-[50%] bg-[#E5E5E5]" />
           </div>
-          <div className="skills flex md:gap-8 gap-4 text-center md:text-left md:justify-start md:items-start items-center justify-center">
+          <div className="skills flex md:gap-8 gap-4 px-5 text-center md:text-left md:justify-start md:items-start items-center justify-center">
             <div className="flex flex-col gap-4 bg-[#E7E7E7] items-center justify-center rounded-xl md:px-5 px-4 py-4">
               <div className="p-2 rounded-[50%] object-contain md:w-14 md:h-14 w-12 h-12 bg-[#D1D1D1] flex items-center justify-center">
                 <MdSpeed className="text-[1.45rem] md:text-[1.65rem]" />
