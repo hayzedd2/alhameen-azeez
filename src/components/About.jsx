@@ -7,8 +7,8 @@ import man from "../images/pngwing.com.png";
 const About = () => {
   return (
     <section id="about" className="py-10">
-      <div className="arsenal max-w-[78rem] mx-auto flex items-center justify-center md:items-end  py-10 md:flex-nowrap  flex-wrap gap-10 md:gap-0">
-        <div className="flex flex-col items-center md:items-start gap-3 basis-[100%] md:basis-[50%] md:text-left text-center">
+      <div className="arsenal max-w-[78rem] mx-auto flex items-center  justify-center md:items-end  py-10 md:flex-wrap  flex-wrap gap-10 md:gap-10 lg:gap-0">
+        <div className="flex flex-col items-center md:items-center lg:items-start gap-3 basis-[100%] md:basis-[100%] lg:basis-[50%] md:text-left text-center">
           <div className=" bg-[#E5E5E5] flex items-center justify-center w-28 h-28 md:w-36 md:h-36 rounded-[50%] mb-8 ">
             <img src={man} alt="" className="rounded-[50%] bg-[#E5E5E5]" />
           </div>
@@ -50,7 +50,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className=" basis-[100%] md:basis-[50%]">
+        <div className=" basis-[100%] md:basis-[100%] lg:basis-[50%]">
           <div className="md:py-10 px-6 py-6 md:px-12 rounded-none md:rounded-[2rem] bg-[#F9F9F9]">
             <h1 className="font-josefin text-[1.3rem] font-[700]">About Me</h1>
             <ul className="mt-3 md:mt-6 flex flex-col gap-8 md:gap-10">

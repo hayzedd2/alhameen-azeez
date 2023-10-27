@@ -25,7 +25,7 @@
 .scroll-container::-webkit-scrollbar-thumb {
   background: transparent; 
 }
-@media (min-width: 768px) {
+@media (min-width: 976px) {
   .scroll-container{
     width: calc(100% + 8rem);
   }
